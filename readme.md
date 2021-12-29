@@ -1,4 +1,4 @@
-# Cron Tasks Database Laravel
+# Sms Laravel
 Laravel 8+  
 PHP 7.4+  
 
