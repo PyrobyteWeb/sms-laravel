@@ -6,6 +6,7 @@ PHP 7.4+
    \PyrobyteWeb\Sms\SmsServiceProvider::class
 2. ``php artisan vendor:publish --provider="PyrobyteWeb\Sms\SmsServiceProvider"``
 3. Добавить в ``.env`` параметр ``SMS_RU_KEY`` и указать свой токен от SMS_RU
+4. Указать нужного вам правайдера для отправки смс в ``config/sms.php``. На данный момент доступен только один - ``smsru``
 
 ## Доступные методы  
 Работа осуществляется через фасад ``PyrobyteWeb\Sms\Facades\Sms``  
