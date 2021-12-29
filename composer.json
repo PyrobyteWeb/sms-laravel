@@ -1,0 +1,19 @@
+{
+    "name": "pyrobyteweb/sms",
+    "autoload": {
+        "psr-4": {
+            "PyrobyteWeb\\Sms\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Artyom",
+            "email": "artem.a@pyrobyte.ru"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0",
+        "ext-curl": "*"
+    }
+}
